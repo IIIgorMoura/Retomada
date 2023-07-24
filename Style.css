@@ -167,13 +167,50 @@ footer {
     width: 100vw;
     height: 300px;
 
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
     background-color: #008374;
 } 
 
+.coluna {
+    display: flex;
+    flex-direction: column;
+}
+
 .paginasVertical {
+    padding: 15px;
     font-size: 35px;
     color: #fff;
     text-decoration: none;
 }
 
+#inscrever {
+    width: 440px;
+
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+}
+
+#inscricao {
+    position: absolute;
+}
+
+#email {
+    width: 400px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+#enviar {
+    width: 130px;
+    height: 40px;
+
+    border-radius: 10px;
+    font-size: 30px;
+    font-family: "inter";
+}
 /* FIM RODAPE */
