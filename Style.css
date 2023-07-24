@@ -242,8 +242,11 @@ footer {
     display: flex;
     flex-direction: column;
 
-    align-items: center;
-    justify-content: center;
-    
+    margin: 100px 500px
+
+}
+
+.comoContatar {
+    margin: 100px 100px
 }
 /* FIM INFORMACOES */
