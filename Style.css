@@ -1,0 +1,47 @@
+/* RESET */
+
+* {
+    margin: 0;
+}
+
+/* FIM RESET */
+
+/* HEADER */
+
+#header {
+    background-color: #008374;
+    width: 100vw;
+    height: 90px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.logo {
+    font-size: 40px;
+    color: #fff;
+  }
+
+
+
+.paginas {
+    font-size: 35px;
+    color: #fff;
+    text-decoration: none;
+    padding: 0px 20px;
+}
+
+/* FIM HEADER */
+
+/* DESTAQUE */
+
+.destaque {
+    width: 100vw;
+    height: 560px;
+
+    background-color: #23A092;
+}
+
+/* FIM DESTAQUE*/
