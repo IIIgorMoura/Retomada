@@ -120,6 +120,7 @@ html {
 /* OPCOES */
 
 .opcoes {
+    padding: 100px 0px;
     width: 100vw;
     display: flex;
     justify-content: space-around;
@@ -147,6 +148,12 @@ html {
 
             width: 500px;
             height: 650px;
+
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+
+            filter: drop-shadow(1px 0px 5px #000000);
             
         }
 
@@ -159,6 +166,12 @@ html {
 
             width: 500px;
             height: 650px;
+
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+
+            filter: drop-shadow(1px 0px 5px #000000);
         }
 /* FIM OPCOES */
 /* RODAPE */
@@ -174,10 +187,10 @@ footer {
     background-color: #008374;
 } 
 
-.coluna {
+ .coluna {
     display: flex;
-    flex-direction: column;
-}
+    flex-direction: column;}
+
 
 .paginasVertical {
     padding: 15px;
@@ -188,10 +201,12 @@ footer {
 
 #inscrever {
     width: 440px;
+    height: 300px;
 
+    flex-direction: column;
     display: flex;
     align-content: center;
-    justify-content: center;
+    justify-content: space-around;
 
 }
 
@@ -212,5 +227,10 @@ footer {
     border-radius: 10px;
     font-size: 30px;
     font-family: "inter";
+}
+
+.inscreverse {
+    display: flex;
+    align-items: center;
 }
 /* FIM RODAPE */
