@@ -4,6 +4,10 @@
     margin: 0;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 /* FIM RESET */
 
 /* PADRAO */
@@ -26,7 +30,7 @@ h2 {
 
 .textoPadrao {
     font-family: "inter";
-    font-size: 30px; 
+    font-size: 30px;
 }
 
 html {
@@ -52,7 +56,7 @@ html {
 .logo {
     font-size: 40px;
     color: #fff;
-  }
+}
 
 
 
@@ -71,7 +75,7 @@ html {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    
+
     width: 100vw;
     height: 560px;
 
@@ -98,14 +102,14 @@ html {
     margin: 10px;
     margin-top: -100px;
     background-color: #FFF;
-  }
+}
 
-  .box h1 {
+.box h1 {
     font-size: 20px;
     font-weight: bold;
-  }
+}
 
-  .box p {
+.box p {
     color: #000;
     font-family: Inter;
     font-size: 19px;
@@ -114,50 +118,42 @@ html {
     line-height: normal;
     margin-top: 0px;
     text-align: center;
-  }
+}
 
-  .box img {
+.box img {
     width: 50px;
     height: 50px;
-    float:inline-start;
+    float: inline-start;
     margin-right: 0px;
     margin-top: 0px;
-  }
+}
 
-  .box img {
+.box img {
     display: block;
     margin: 0 auto;
-  }
+}
 
-  .box {
+.box {
     display: flex;
     justify-content: space-around;
-    flex-direction: column ;
+    flex-direction: column;
     text-align: center;
-  }
+}
 
-  .imagempi {
+.imagempi {
     width: 40px;
     height: 400px;
     flex-shrink: 0;
-  }
+}
 
-  .quadros {
+.quadros {
     width: 100vw;
 
-    
     display: flex;
     justify-content: space-around;
-  }
+}
+
 /* FIM QUADROS */
-
-
-
-
-
-
-
-
 /* PLANOS */
 
 #planosOpc {
@@ -194,7 +190,7 @@ html {
 .faixa {
     width: 500px;
     height: 50px;
-    
+
     margin: 15px 0px;
 
     background-color: #FF912D;
@@ -212,35 +208,36 @@ html {
 
 
 .basic {
-            background-color: #EDECEC;
+    background-color: #EDECEC;
 
-            width: 500px;
-            height: 650px;
+    width: 500px;
+    height: 650px;
 
-            display: flex;
-            justify-content: center;
-            flex-direction: column;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 
-            filter: drop-shadow(1px 0px 5px #000000);
-            
-        }
+    filter: drop-shadow(1px 0px 5px #000000);
+
+}
 
 .desativado {
     color: #959292;
 }
 
 .premium {
-            background-color: #EDECEC;
+    background-color: #EDECEC;
 
-            width: 500px;
-            height: 650px;
+    width: 500px;
+    height: 650px;
 
-            display: flex;
-            justify-content: center;
-            flex-direction: column;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 
-            filter: drop-shadow(1px 0px 5px #000000);
-        }
+    filter: drop-shadow(1px 0px 5px #000000);
+}
+
 /* FIM OPCOES */
 /* RODAPE */
 
@@ -253,11 +250,14 @@ footer {
     justify-content: space-around;
 
     background-color: #008374;
-} 
+}
 
- .coluna {
+.coluna {
     display: flex;
-    flex-direction: column;}
+    flex-direction: column;
+
+    width: 500px;
+}
 
 
 .paginasVertical {
@@ -270,6 +270,8 @@ footer {
 #inscrever {
     width: 440px;
     height: 300px;
+
+    margin-right: 50px;
 
     flex-direction: column;
     display: flex;
@@ -301,6 +303,7 @@ footer {
     display: flex;
     align-items: center;
 }
+
 /* FIM RODAPE */
 
 /* CONTATO */
@@ -311,11 +314,11 @@ footer {
     flex-direction: column;
 
     margin: 100px 500px
-
 }
 
 .comoContatar {
     margin: 100px 210px
 }
+
 /* FIM INFORMACOES */
 /* FIM CONTATO */
