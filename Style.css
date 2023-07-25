@@ -159,11 +159,12 @@ html {
 
 /* PLANOS */
 
-/* .planosOpc {
-    position: absolute;
+#planosOpc {
     display: flex;
-    width: 100px;
-    height: ;
+
+    margin: 50px 50px 0px 50px;
+    padding: 50px;
+
     font-size: 25px;
     flex-wrap: wrap;
 }
@@ -173,10 +174,9 @@ html {
 }
 
 .planoTexto {
-    padding: 0px 50px 0px 50px;
     font-size: 25px;
     word-wrap: wrap;
-} */
+}
 
 /* FIM PLANOS */
 
